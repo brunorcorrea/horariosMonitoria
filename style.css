@@ -2,9 +2,10 @@ table{
     border: 1px solid black;
     margin: 1%;
     text-align: center;
-    width: 1000px;
+    width: 80%;
 }
 
 td{
     border: 1px solid black;
+    width: 30%;
 }

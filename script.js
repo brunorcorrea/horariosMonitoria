@@ -1,5 +1,6 @@
-function Names(){
-    let subjectId = document.getElementById("input").value;
+let j = 0;
+function Names(subjectId){
+    
     let edf = [
             {
                 name: "Luiza Rafael",
@@ -156,7 +157,14 @@ function Names(){
     let course = courses[subjectId];
     
     let table = document.createElement("table");
-    table.setAttribute("cellpadding","10px")
+    table.setAttribute("cellpadding","10px");
+    let l = document.createElement("tr");
+    let d = document.createElement("td");
+    d.setAttribute("colspan","2");
+    d.style.color = "red";
+    d.innerHTML = "Monitores de " + subjectId.toUpperCase();
+    l.appendChild(d);
+    table.appendChild(l);
     let linha = document.createElement("tr");
     let data = document.createElement("td");
     let data1 = document.createElement("td");
@@ -183,6 +191,5 @@ function Names(){
         table.appendChild(row);
         document.body.appendChild(table);
         }
-        
-    
+    j++;
 }

@@ -193,3 +193,12 @@ function Names(subjectId){
         }
     j++;
 }
+Names('edf');
+Names('enf');
+Names('geo');
+Names('inf');
+Names('qld');
+Names('mec');
+Names('beq');
+Names('hum');
+Names('fem');

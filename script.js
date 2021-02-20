@@ -28,7 +28,7 @@ function Names(subjectId){
             },
             {
                 name: " Marina Lucon",
-                schedules: "Terça-Feira: 19h00 - 22h00 <br> Sexta-Feira: 18h30 - 21h30 <br> Sábado: 08h00 - 11h00"
+                schedules: "Terça-Feira: 19h00 - 22h00 <br> Quarta-Feira: 18h30 - 19h30 <br> Quinta-Feira: 19h30 - 20h30 <br> Sexta-Feira: 18h00 - 19h00 <br> Sábado: 08h00 - 11h00"
             },
             {
                 name: "Nathália Rocha",
